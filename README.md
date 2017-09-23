@@ -6,7 +6,7 @@ They are designed to have exceptional user-friendliness.
 ## Usage
 
 The following functions are contained in this package. A short description is given for each. For 
-more detailed information, type '?functionName' into your R console after the package has been 
+more detailed information, type `?functionName` into your R console after the package has been 
 loaded. For instructions on how to load this package, read [Installation](#Installation).
 
 * [sample.df](#sample.df)
