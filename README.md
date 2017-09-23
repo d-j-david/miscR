@@ -9,9 +9,9 @@ The following functions are contained in this package. A short description is gi
 more detailed information, type `?functionName` into your R console after the package has been 
 loaded. For instructions on how to load this package, read [Installation](#Installation).
 
-* [sample.df](#sample.df)
-* [auth.connect](#auth.connect)
-* [time.log](#time.log)
+* [sample.df](###sample.df)
+* [auth.connect](###auth.connect)
+* [time.log](###time.log)
 
 ### sample.df
 
@@ -33,7 +33,8 @@ time of code, or particularly, for helping to estimate the time remaining in an 
 This package can be accessed directly from R, without any additional coercion. Simply copy and 
 paste the following commands into your R console and run:
 
-```install.packages("devtools")  
+```R
+install.packages("devtools")  
 devtools::install_github("d-j-david/miscR")  
 library(miscR)
 ```
