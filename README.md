@@ -19,9 +19,9 @@ Returns a random sample of a given data frame, either simple or stratified, depe
 
 ### auth.connect
 
-Creates connection to an external database that requires authentication, without having to write
-credentials into the code itself. That connection, in turn, can be used in sqlQuery to query the
-database directly from R.
+Creates a connection to an external database that requires authentication, without having to write
+credentials into the code itself. That connection, in turn, can be used in sqlQuery {RODBC} to query 
+the database directly from R.
 
 ### time.log
 
