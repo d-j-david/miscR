@@ -44,6 +44,6 @@ library(miscR)
 from Github. `library(miscR)` actually loads the miscR package for the current instance, giving 
 access to all the functions it contains.
 
-After the initial install, only `library(miscR)` is needed to access the package, although it is a
-good idea to periodically run `devtools::install_github("d-j-david/miscR")` to keep the package up 
-to date with the most current version.
+After the initial install, only `library(miscR)` is needed to access the package in a given R 
+instance, although it is a good idea to periodically run `devtools::install_github("d-j-david/miscR")` 
+to keep the package up to date with the most current version.
