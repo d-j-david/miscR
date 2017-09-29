@@ -39,7 +39,11 @@ devtools::install_github("d-j-david/miscR")
 library(miscR)
 ```
 
-This code installs the [devtools package](https://github.com/hadley/devtools), containing the 
-function `install_github`, which allows you to install R packages directly from Github. Once miscR 
-is installed on your machine, running `library(miscR)` will load the package for your current 
-instance, giving access to all the functions it contains.
+`install.packages("devtools")`, as you might guess, installs the [devtools package](https://github.com/hadley/devtools). 
+`install_github` is a function within devtools which allows the user to install R packages directly 
+from Github. `library(miscR)` actually loads the miscR package for the current instance, giving 
+access to all the functions it contains.
+
+After the initial install, only `library(miscR)` is needed to access the package, although it is a
+good idea to periodically run `devtools::install_github("d-j-david/miscR")` to keep the package up 
+to date with the most current version.
