@@ -1,7 +1,7 @@
 # miscR
 
 miscR is a collection of self-written functions to simplify some of my commonly performed tasks. 
-They are designed to have exceptional user-friendliness.
+They are designed to have a greater degree of user-friendliness.
 
 ## Usage
 
